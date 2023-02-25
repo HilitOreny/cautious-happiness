@@ -9,7 +9,13 @@ class Token:
     def present_result(self):
         print("The result of this token is: ", self.result)
 
+class Bag:
+    def __init__(self, difficulty):
+        self.difficulty = difficulty
 
-zero = Token("0", "0")
-zero.drawing()
-zero.present_result()
+    def create_bag(self):
+        if self.difficulty == "easy":
+            Token("0", "0")
+
+
+
