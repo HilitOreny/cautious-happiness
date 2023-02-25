@@ -9,13 +9,25 @@ class Token:
     def present_result(self):
         print("The result of this token is: ", self.result)
 
-class Bag:
-    def __init__(self, difficulty):
-        self.difficulty = difficulty
 
-    def create_bag(self):
-        if self.difficulty == "easy":
-            Token("0", "0")
+# creating all numerical tokens first
 
+Token("1", "1")
+Token("1", "1")
+Token("0", "0")
+Token("0", "0")
+Token("0", "0")
+Token("-1", "-1")
+Token("-1", "-1")
+Token("-1", "-1")
+Token("-2", "-2")
+Token("-2", "-2")
+Token("-3", "-3")
+Token("-3", "-3")
+Token("-4", "-4")
+Token("-4", "-4")
+Token("-5", "-5")
+Token("-6", "-6")
+Token("-8", "-8")
 
 
